@@ -96,9 +96,6 @@ The design underwent **Design Rule Check (DRC)** and **Layout Versus Schematic (
 ### 7. RC Parasitic Extraction
 
 Once the layout was verified, the RC parasitics (resistances and capacitances of interconnects) were extracted. These parasitics impact the delay and overall performance of the circuit, and their extraction is essential for accurate post-layout simulation results.
-<p align="center">
-  <img src="inv img/sch inv.png" />
-</p>
 
 ### 8. Pre-Layout and Post-Layout Simulations
 
@@ -107,7 +104,7 @@ Pre-layout simulations were conducted using ideal models for the components, wit
 #### - Pre-Layout Results:
   The simulation results for the pre-layout design yielded a delay of 118.1 ps and the expected Voltage Transfer Characteristics (VTC).
 <p align="center">
-  <img src="inv img/dc and delay inv.png" />
+  <img src="inv img/delay inv.png" />
 </p>
   
 #### - Post-Layout Results:
