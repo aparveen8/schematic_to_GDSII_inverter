@@ -1,10 +1,10 @@
 # CMOS Inverter Design and GDSII Generation using Cadence Virtuoso (GPDK90)
 
-This repository documents the design, simulation, and layout process for a **CMOS Inverter** using **Cadence Virtuoso** with **GPDK90 technology**. The project demonstrates the complete workflow from schematic creation to GDSII generation, including pre-layout and post-layout simulations, delay calculations, RC parasitic extraction, and validation through DRC and LVS checks. The goal of this project is to implement the CMOS inverter design and conduct a detailed comparison between pre-layout and post-layout simulations.
+This repository documents the design, simulation, and layout process for a **CMOS Inverter** using **Cadence Virtuoso** with **GPDK90 technology**.
 
 ## Table of Contents
 
-1. [Project Overview](#project-overview)
+1. [ Overview](#Overview)
 2. [Tools & Technologies](#tools--technologies)
 3. [Project Workflow](#project-workflow)
    - [Schematic Design](#1-schematic-design)
@@ -18,9 +18,9 @@ This repository documents the design, simulation, and layout process for a **CMO
    - [GDSII File Generation](#9-gdsii-file-generation)
 4. [Conclusion](#conclusion)
 
-## Project Overview
+##  Overview
 
-This project explores the design and analysis of a CMOS inverter using the **GPDK90 technology node**. The workflow includes schematic design, simulations, layout generation, DRC & LVS verification, parasitic extraction, and the final generation of the GDSII file for tapeout. Additionally, pre-layout and post-layout simulations are conducted to evaluate the impact of layout parasitics on inverter performance, specifically delay.
+This project explores the design and analysis of a CMOS inverter using the **GPDK90 technology node**. The workflow includes schematic design, simulations, layout generation, DRC & LVS verification, parasitic extraction, and the final generation of the GDSII file for tapeout. Additionally, pre-layout and post-layout simulations are conducted to evaluate the impact of layout parasitics on inverter performance, specifically delay. 
 
 ## Tools & Technologies
 
@@ -31,8 +31,7 @@ This project explores the design and analysis of a CMOS inverter using the **GPD
 
 ### 1. Schematic Design
 
-The first step in the design process involved creating the schematic of the CMOS inverter. The schematic was carefully constructed to ensure that both PMOS and NMOS transistors were properly sized to meet the desired electrical characteristics. Following the schematic design, a symbol for the CMOS inverter was generated, allowing it to be reused in subsequent stages.
-
+The first step in the design process involved creating the schematic of the CMOS inverter. The schematic was carefully constructed to ensure that both PMOS and NMOS transistors were properly sized to meet the desired electrical characteristics. Following the schematic design, a symbol for the CMOS inverter was generated, allowing it to be reused in subsequent stages. For step by step design process, can refer the manual. 
 ### 2. Testbench Setup
 
 To evaluate the inverter’s performance, a testbench was created in the simulation environment. The testbench was configured to stimulate the CMOS inverter with a range of input signals, allowing for the observation of its response and the extraction of key performance parameters such as the **Voltage Transfer Characteristics (VTC)** and the **threshold voltage**.
